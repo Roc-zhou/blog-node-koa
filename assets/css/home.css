@@ -1,0 +1,28 @@
+header {
+  height: 60px;
+  background-color: #222;
+  color: #fff
+}
+
+.header_con {
+  width: 1000px;
+}
+
+.header_con a {
+  color: #fff;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+.header_con a:hover:not(.no-hover) {
+  background-color: #404040;
+  text-decoration: none
+}
+
+.github svg {
+  width: 25px;
+}
+
+svg path {
+  fill: #fff;
+}

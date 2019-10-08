@@ -6,6 +6,7 @@ const static = require('koa-static')
 const koaLogger = require('koa-logger')
 const Router = require('koa-router')
 const router = new Router();
+const Query = require('rz-mysql')
 const db = require('./utils/db-utils')
 
 // mysql
@@ -17,9 +18,7 @@ app.use(views(path.join(__dirname, '/views'), {
 }));
 
 // static
-app.use(static(
-  path.join(__dirname, './assets')
-))
+app.use(static(__dirname, './assets'))
 
 // logger
 app.use(koaLogger())
