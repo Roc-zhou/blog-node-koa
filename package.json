@@ -29,6 +29,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.1",
+    "rz-methods": "^2.0.4",
     "rz-mysql": "^1.0.2"
   }
 }
