@@ -9,17 +9,25 @@
     width: 100%;
   }
 
+  .header_con > a {
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../assets/img/logo.png');
+    background-size: 100% 100%;
+  }
+
   .header_con {
     width: 1000px;
   }
 
-  .header_con a {
+  .menu a {
     color: #fff;
     margin-left: 20px;
     padding: 10px 20px;
   }
 
-  .header_con a:hover:not(.no-hover) {
+  .menu a:hover:not(.no-hover) {
     background-color: #404040;
     text-decoration: none
   }
@@ -34,8 +42,9 @@
 </style>
 <header class="items-center justify-center">
   <div class="header_con justify-between items-center">
-    <h1></h1>
-    <div class="justify-center items-center">
+    <h1 style="position: absolute;top: -1000px">LOGO</h1>
+    <a href="/">你好</a>
+    <div class="justify-center items-center menu">
       <a href="">首页</a>
       <a href="/article">目录</a>
       <a href="/about">关于</a>
